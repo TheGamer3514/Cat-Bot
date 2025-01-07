@@ -10,7 +10,7 @@ bot = commands.Bot(command_prefix='!', intents=intents, help_command=None, descr
 async def on_ready():
     #set status
     activity = discord.CustomActivity(
-        name = "Cats are cute",
+        name = "Cats are super duper cute",
     )
     await bot.change_presence(activity=activity)
     print(f'Logged in as {bot.user.name}')
